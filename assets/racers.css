@@ -1,0 +1,74 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../assets/fonts/mario_kart_f2.ttf);
+}
+h2, h4 {
+  font-family: myFirstFont;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+h4 {
+  margin-bottom: 0px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(100, 190, 226, 0.801);
+  transition: 0.3s;
+  width: 40%;
+  height: 19em;
+  border-radius: 5px;
+  float: left;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+  margin-left: 6px;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(100, 190, 226, 0.801);
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(100, 190, 226, 0.801);
+  transition: 0.3s;
+  width: 40%;
+  height: 19em;
+  border-radius: 5px;
+  float: right;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+  margin-left: 6px;
+  background-color: white;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(100, 190, 226, 0.801);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding: 2px 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+  .racers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%
+  }
+
+body {
+    background-image: url("../assets/img/500px-MK8DX_Black_Background.jpg");
+   }
