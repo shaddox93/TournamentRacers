@@ -18,7 +18,7 @@ h4 {
 .card {
   box-shadow: 0 4px 8px 0 rgba(100, 190, 226, 0.801);
   transition: 0.3s;
-  width: 40%;
+  width: 80%;
   height: 19em;
   border-radius: 5px;
   margin-top: 6px;
@@ -48,7 +48,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
+    width: 100%;
   }
 
 body {
@@ -57,10 +57,15 @@ body {
    }
 
    @media screen and (min-width: 800px) {
+
+    .card {
+      width: 40%;
+    }
     .racers {
       height: 1750px;
       width: 70%;
       margin-left: 15%;
+      flex-wrap: wrap;
     }
 
 
