@@ -21,7 +21,6 @@ h4 {
   width: 40%;
   height: 19em;
   border-radius: 5px;
-  float: left;
   margin-top: 6px;
   margin-bottom: 6px;
   margin-right: 6px;
@@ -30,23 +29,6 @@ h4 {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(100, 190, 226, 0.801);
-}
-.card2 {
-  box-shadow: 0 4px 8px 0 rgba(100, 190, 226, 0.801);
-  transition: 0.3s;
-  width: 40%;
-  height: 19em;
-  border-radius: 5px;
-  float: right;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  margin-right: 6px;
-  margin-left: 6px;
-  background-color: white;
-}
-
-.card2:hover {
   box-shadow: 0 8px 16px 0 rgba(100, 190, 226, 0.801);
 }
 
@@ -63,12 +45,23 @@ img {
 }
   
   .racers {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
 body {
     background-image: url("../assets/img/500px-MK8DX_Black_Background.jpg");
+    font-size: 110%;
    }
+
+   @media screen and (min-width: 800px) {
+    .racers {
+      height: 1750px;
+      width: 70%;
+      margin-left: 15%;
+    }
+
+
+  }
